@@ -19,14 +19,15 @@ This repository documents my transition from Hospital Operations and Finance int
 * **Tech Used:** Python (`requests` library).
 * **Goal:** To practice automating manual data collection (replacing the need to copy-paste data manually).
 
-### 3. 📊 Exploratory Data Analysis (EDA)
-*File:* `Pandas_EDA_Analysis.ipynb`
-* **What it is:** A Jupyter Notebook analyzing a structured dataset (Student Performance) to find patterns.
-* **Tech Used:** Python (`Pandas` for cleaning/manipulation, `Seaborn` & `Matplotlib` for charts).
-* **Key Steps:**
-    * Loaded raw data and checked for missing values.
-    * Visualized distributions (histograms/boxplots).
-    * Calculated summary statistics to understand performance trends.
+### 3. 📊 E-Commerce Sales Strategy Analysis
+*File:* `E_Commerce_Sales_Insights.ipynb`
+* **What it is:** A comprehensive analysis of a real-world sales dataset (180k+ transactions) to answer critical business questions.
+* **Tech Used:** Python (`Pandas` for cleaning/manipulation, `Seaborn` & `Matplotlib` for visualization).
+* **Key Insights Delivered:**
+    * **Best Sales Month:** Identified December as the peak revenue month, driving seasonal inventory planning.
+    * **Top Performing Cities:** Pinpointed San Francisco as the highest revenue generator.
+    * **Optimal Ad Timing:** Analyzed hourly sales data to recommend advertising peaks at **11 AM** and **7 PM** to maximize conversion.
+    * **Product Strategy:** Determined "AAA Batteries" as the highest volume seller and "Macbook Pro" as the highest revenue generator.
 
 ---
 
