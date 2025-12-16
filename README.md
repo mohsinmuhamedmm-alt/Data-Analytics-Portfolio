@@ -7,11 +7,14 @@ This repository documents my transition from Hospital Operations and Finance int
 
 ## 📂 Projects
 
-### 1. 🛒 SQL Logic: E-Commerce Business Metrics
-*File:* `Vinted_mock_analysis.sql`
-* **What it is:** A collection of SQL queries written to demonstrate how I would extract insights from a standard e-commerce database (Users, Orders, Items).
-* **Concept:** Applied the logic of **Joins**, **Aggregations**, and **Window Functions** to hypothetical business questions like "Who are the top spenders?" and "What is the monthly revenue trend?"
-* **Goal:** To translate business questions into correct SQL syntax.
+## 1) 🧮 SQL: Sakila Business Analytics
+
+**Folder:** `sql/`  
+**Files:** `sakila_monthly_payments_by_category.sql`, `sakila_store_payments_pivot.sql`
+
+- **Goal:** Turn the Sakila DVD-rental schema into business answers (revenue by category/store, month-over-month trends).
+- **Techniques:** multi-table joins, monthly bucketing, conditional aggregation, pivots for reporting.
+- **Why it matters:** mirrors real data-to-insight steps you’d do for marketplace or retail analytics.
 
 ### 2. 🌤️ Python Script: Weather Data Extraction
 *File:* `Automated_Weather_Data_Extraction.py`
