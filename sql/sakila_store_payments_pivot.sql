@@ -1,3 +1,9 @@
+/* 
+  Project: Sakila Business Analytics
+  File: sakila_store_payments_pivot.sql
+  Purpose: Store payments with pivot table for monthly revenue reporting
+  Author: Abdelmohsen Elafify
+*/
 -- Store payments pivot by month (Sakila)
 WITH base_query AS (
     SELECT
