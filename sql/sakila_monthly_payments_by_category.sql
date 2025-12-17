@@ -1,3 +1,9 @@
+/* 
+  Project: Sakila Business Analytics
+  File: sakila_monthly_payments_by_category.sql
+  Purpose: Monthly revenue by category with pivot roll-up for reporting
+  Author: Abdelmohsen Elafify
+*/
 -- Monthly payments by film category (Sakila)
 WITH base_query AS (
     SELECT
