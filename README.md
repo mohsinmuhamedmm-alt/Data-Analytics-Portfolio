@@ -1,4 +1,5 @@
-# Data Analytics Portfolio
+
+                     # Data Analytics Portfolio
 
 **Operations & Business Professional** building a technical toolkit to solve business problems.
 This repository documents my transition from Hospital Operations and Finance into Data Analytics. It contains practical scripts and logic demonstrations I built to master **Python** and **SQL**.
@@ -18,6 +19,18 @@ This repository documents my transition from Hospital Operations and Finance int
 
 - - **Dataset:** MySQL Sakila sample DB (DVD rental).
 - **How to run:** Run on MySQL (or compatible). Requires Sakila sample DB. Copy/paste queries or run via CLI.
+
+- **Quickstart:**
+```bash
+# Load Sakila (MySQL)
+mysql -u root -p < sakila-schema.sql
+mysql -u root -p < sakila-data.sql
+
+# Run one of the queries
+mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
+```
+
+**Get Sakila:** Search 'MySQL Sakila sample database' and download schema + data scripts.
 
 ### 2. 🌤️ Python Script: Weather Data Extraction
 *File:* `Automated_Weather_Data_Extraction.py`
