@@ -16,6 +16,9 @@ This repository documents my transition from Hospital Operations and Finance int
 - **Techniques:** multi-table joins, monthly bucketing, conditional aggregation, pivots for reporting.
 - **Why it matters:** mirrors real data-to-insight steps you’d do for marketplace or retail analytics.
 
+- - **Dataset:** MySQL Sakila sample DB (DVD rental).
+- **How to run:** Run on MySQL (or compatible). Requires Sakila sample DB. Copy/paste queries or run via CLI.
+
 ### 2. 🌤️ Python Script: Weather Data Extraction
 *File:* `Automated_Weather_Data_Extraction.py`
 * **What it is:** A Python script that connects to a public weather website/API to fetch real-time data.
