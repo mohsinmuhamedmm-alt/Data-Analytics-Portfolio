@@ -49,6 +49,7 @@ mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
     * **Product Strategy:** Determined "AAA Batteries" as the highest volume seller and "Macbook Pro" as the highest revenue generator.
  
  #### 📊 Interactive Tableau Dashboard
+ [🔗 View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/E-Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
     * * **Executive-ready view:** The same cleaned dataset is surfaced in Tableau to track core executive KPIs such as revenue, margin, and volume by time, product, and region in a single interactive view.
       * * **Interactivity for exploration:** Filters, drill-downs, and hover details let stakeholders slice performance by city, product line, and time period without touching code, accelerating ad-hoc analysis.
         * * **Decision support:** Scenario-style views (e.g., peak hours, top SKUs, underperforming regions) translate analytical findings into actionable guidance for marketing spend, inventory allocation, and pricing strategy.
@@ -69,6 +70,6 @@ mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
 ---
 
 ## 🛠️ Tools & Skills
-* **Languages:** Python (Learning), SQL (Syntax & Logic)
+* **Languages:** Python, SQL (Syntax & Logic), Tableau
 * **Focus:** Data Cleaning, Process Automation, Business Reporting
 * **Background:** 2.5+ years in Operations & Finance (Citco, Healthcare)
