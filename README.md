@@ -50,7 +50,7 @@ mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
 
  **Dataset Extension to Tableau:** The same cleaned e-commerce dataset from Python analysis was visualized in Tableau Public to provide interactive, executive-level reporting for stakeholder exploration and decision support.
  #### 📊 Interactive Tableau Dashboard
- * [🔗 View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/E-
+ * [🔗 View Interactive Dashboard on Tableau Public]([https://public.tableau.com/views/E-](https://public.tableau.com/views/E-Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
  * * **Interactive Elements:** Explore executive KPIs, revenue trends, and customer behavior through filters, drill-downs, and dynamic visualizations.Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
  
 ### 4. 📊 Sales Performance & Customer Behavior Analysis
