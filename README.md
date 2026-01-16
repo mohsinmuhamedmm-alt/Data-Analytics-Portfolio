@@ -47,14 +47,13 @@ mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
     * **Top Performing Cities:** Pinpointed San Francisco as the highest revenue generator.
     * **Optimal Ad Timing:** Analyzed hourly sales data to recommend advertising peaks at **11 AM** and **7 PM** to maximize conversion.
     * **Product Strategy:** Determined "AAA Batteries" as the highest volume seller and "Macbook Pro" as the highest revenue generator.
- 
+
+ **Dataset Extension to Tableau:** The same cleaned e-commerce dataset from Python analysis was visualized in Tableau Public to provide interactive, executive-level reporting for stakeholder exploration and decision support.
  #### 📊 Interactive Tableau Dashboard
- [🔗 View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/E-Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-    * * **Executive-ready view:** The same cleaned dataset is surfaced in Tableau to track core executive KPIs such as revenue, margin, and volume by time, product, and region in a single interactive view.
-      * * **Interactivity for exploration:** Filters, drill-downs, and hover details let stakeholders slice performance by city, product line, and time period without touching code, accelerating ad-hoc analysis.
-        * * **Decision support:** Scenario-style views (e.g., peak hours, top SKUs, underperforming regions) translate analytical findings into actionable guidance for marketing spend, inventory allocation, and pricing strategy.
+ * [🔗 View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/E-
+ * * **Interactive Elements:** Explore executive KPIs, revenue trends, and customer behavior through filters, drill-downs, and dynamic visualizations.Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
  
-    * ## 4. 📊 Sales Performance & Customer Behavior Analysis
+### 4. 📊 Sales Performance & Customer Behavior Analysis
 
 *File:* `E_Commerce_Sales_Insights.ipynb`
 
