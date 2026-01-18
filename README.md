@@ -1,8 +1,9 @@
 
                      # Data Analytics Portfolio
 
-**Operations & Business Professional** building a technical toolkit to solve business problems.
-This repository documents my transition from Hospital Operations and Finance into Data Analytics. It contains practical scripts and logic demonstrations I built to master **Python** and **SQL**.
+**Mid-level Data Analyst** | Operations & Finance background | Python, SQL, Tableau expertise
+
+Transitioning from **Hospital Operations & Finance** into **Data Analytics**. This portfolio showcases hands-on projects demonstrating ability to extract insights, build dashboards, and drive business decisions using **Python**, **SQL**, and modern data visualization tools.scripts and logic demonstrations I built to master **Python** and **SQL**.
 
 ---
 
@@ -50,8 +51,9 @@ mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
 
  **Dataset Extension to Tableau:** The same cleaned e-commerce dataset from Python analysis was visualized in Tableau Public to provide interactive, executive-level reporting for stakeholder exploration and decision support.
  #### 📊 Interactive Tableau Dashboard
- * [🔗 View Interactive Dashboard on Tableau Public]([https://public.tableau.com/views/E-](https://public.tableau.com/views/E-Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
- * * **Interactive Elements:** Explore executive KPIs, revenue trends, and customer behavior through filters, drill-downs, and dynamic visualizations.Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+ - [🔗 View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/E-Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+  - **Stakeholder-Ready Dashboard:** Executive KPIs (Revenue, Orders, AOV), revenue trends, and geographic performance with interactive filters for region, product, and time period.
+
  
 ### 4. 📊 Sales Performance & Customer Behavior Analysis
 
