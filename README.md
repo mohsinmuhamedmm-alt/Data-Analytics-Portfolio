@@ -53,7 +53,7 @@ mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
 
 #### 📊 Executive Dashboard (Tableau Public)
 
-**[View Executive Dashboard](https://public.tableau.com/views/E-Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+**[View Executive Dashboard]([https://public.tableau.com/views/E-Commercesalesperformancedashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/app/profile/abdelmohsen.mohamed.elafify/viz/SalesPerformanceCustomerBehaviorAnalysis/ExecutiveOverview))**
 
 The same cleaned e-commerce dataset powers this interactive dashboard, providing stakeholders with an executive-level analytical layer:
 - Executive KPIs: Revenue, Orders, Average Order Value
