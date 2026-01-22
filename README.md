@@ -62,6 +62,26 @@ The same cleaned e-commerce dataset powers this interactive dashboard, providing
 
 ---
 
+## 4) Customer Behavior & Churn Analysis (Python & Tableau)
+
+**Folder:** `customer-behavior-analysis/`
+
+**Files:** `customer_behavior_analysis.ipynb`
+
+- **Goal:** Identify customer churn drivers and segment users by tenure and behavior patterns to guide retention strategies.
+- **Analysis scope:** Analyzed 7,000+ customer records across session patterns, conversion funnels (add-to-cart), average order values, and service interactions to uncover churn risk factors.
+- **Python workflow:** Cleaned raw customer dataset; engineered features including session frequency, cart abandonment rate, average AOV, and customer tenure; calculated churn segmentation metrics.
+- **Tableau dashboards:** Built interactive executive and operational views to track KPIs, visualize churn cohorts by tenure and service calls, and highlight behavioral drivers of customer attrition.
+
+### Interactive Dashboards (Tableau Public)
+
+[View Customer Behavior Dashboards](https://public.tableau.com/app/profile/abdelmohsen.mohamed.elafify/viz/CustomerBehavourAnalysis/ExecutiveOverview#2)
+
+- **Executive Overview:** High-level KPIs including total churn rate, AOV trends, engagement metrics, and key retention indicators
+- **Behavioral Deep-Dive:** Churn analysis by tenure cohorts, impact of service calls on retention, conversion rates by session type, and actionable customer segments for targeted interventions
+
+---
+
 🛠️ Tools & Skills
 ------------------
 
