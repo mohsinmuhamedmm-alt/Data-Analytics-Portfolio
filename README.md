@@ -112,7 +112,7 @@ Key Insights:
 - App users convert more efficiently than desktop users, suggesting platform UX differences impact outcomes.
 - AOV remains stable across tenure, implying churn is driven by experience rather than spend.
 
-### Interactive Dashboards (Tableau Public)
+### Interactive Dashboard (Tableau Public)
 
 [View Customer Behavior Dashboards](https://public.tableau.com/app/profile/abdelmohsen.mohamed.elafify/viz/CustomerBehavourAnalysis/ExecutiveOverview#2)
 
