@@ -69,17 +69,59 @@ The same cleaned e-commerce dataset powers this interactive dashboard, providing
 
 **Files:** `customer_behavior_analysis.ipynb`
 
-- **Goal:** Identify customer churn drivers and segment users by tenure and behavior patterns to guide retention strategies.
-- **Analysis scope:** Analyzed 7,000+ customer records across session patterns, conversion funnels (add-to-cart), average order values, and service interactions to uncover churn risk factors.
-- **Python workflow:** Cleaned raw customer dataset; engineered features including session frequency, cart abandonment rate, average AOV, and customer tenure; calculated churn segmentation metrics.
-- **Tableau dashboards:** Built interactive executive and operational views to track KPIs, visualize churn cohorts by tenure and service calls, and highlight behavioral drivers of customer attrition.
+4) Customer Behavior & Churn Analysis (Python & Tableau)
+
+Folder: customer-behavior-analysis/  
+Files:
+- customer_behavior_analysis.ipynb
+- customer_behavior_cleaned.csv
+
+Goal:
+Understand what drives customer churn by analyzing behavior patterns across tenure, engagement, conversion, and customer service interactions, and translate insights into retention-focused recommendations.
+
+Analysis Scope:
+- ~3,300 customer records
+- Behavioral signals across sessions, transactions, add-to-cart activity, AOV, service calls, and tenure
+- Binary churn flag used to calculate churn rates and segment risk
+
+Python (Jupyter) Work:
+- Cleaned and validated raw behavioral data
+- Engineered features such as:
+  - Account length in months
+  - Conversion rates (overall, app vs desktop)
+  - Add-to-cart efficiency
+  - Session intensity metrics
+- Grouped customers into tenure cohorts (0–3m, 3–6m, 6–12m)
+- Prepared a Tableau-ready dataset focused on churn drivers rather than raw events
+
+Tableau Dashboards (Public):
+Built two dashboards to support different decision levels:
+
+1) Executive Overview
+- Overall churn rate with benchmark context
+- Average Order Value
+- Total transactions
+- Average session duration per user
+Purpose: Quickly assess business health and identify whether churn or engagement requires attention.
+
+2) Customer Behavior Deep-Dive
+- Churn rate by tenure group
+- Conversion rate by tenure
+- Add-to-cart vs conversion (by churn status)
+- Customer service calls vs churn
+- Platform efficiency (app vs desktop)
+Purpose: Explain *why* churn happens and where intervention will have the highest impact.
+
+Key Insights:
+- Churn peaks in the mid-tenure (3–6 month) segment, indicating onboarding-to-retention drop-off.
+- Churned customers contact customer support ~50% more frequently, making service calls a strong churn risk signal.
+- Conversion rates improve with tenure, but higher conversion alone does not guarantee retention.
+- App users convert more efficiently than desktop users, suggesting platform UX differences impact outcomes.
+- AOV remains stable across tenure, implying churn is driven by experience rather than spend.
 
 ### Interactive Dashboards (Tableau Public)
 
 [View Customer Behavior Dashboards](https://public.tableau.com/app/profile/abdelmohsen.mohamed.elafify/viz/CustomerBehavourAnalysis/ExecutiveOverview#2)
-
-- **Executive Overview:** High-level KPIs including total churn rate, AOV trends, engagement metrics, and key retention indicators
-- **Behavioral Deep-Dive:** Churn analysis by tenure cohorts, impact of service calls on retention, conversion rates by session type, and actionable customer segments for targeted interventions
 
 ---
 
