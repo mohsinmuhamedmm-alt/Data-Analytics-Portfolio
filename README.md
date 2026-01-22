@@ -1,6 +1,6 @@
 # Data Analytics Portfolio
 
-**Mid-level Data Analyst** | Operations & Finance background | Python, SQL, Tableau expertise
+**Data Analyst** | Operations & Finance background | Python, SQL, Tableau 
 
 Transitioning from **Hospital Operations & Finance** into **Data Analytics**. This portfolio showcases hands-on projects demonstrating the ability to extract insights, build dashboards, and drive business decisions using **Python**, **SQL**, and modern data visualization tools.
 
