@@ -44,23 +44,35 @@ mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
 **File:** `E_Commerce_Sales_Insights.ipynb`
 
 Goal: Analyze e-commerce sales performance and customer behavior to identify revenue drivers, seasonal trends, and opportunities for growth.
+
 Data scope: ~180K transactions covering orders, revenue, products, customers, locations, and order timestamps.
 
 Python (Jupyter) work:
+
 Cleaned and validated transactional sales data.
+
 Created business metrics including total revenue, total orders, average order value (AOV), and time-based aggregates.
+
 Analyzed sales trends by month, weekday, and hour to uncover demand patterns.
+
 Identified top-performing products and cities by revenue and order volume.
+
 Prepared a Tableau-ready dataset for dashboarding.
 
 Tableau dashboards (Public):
+
 Executive Overview: Revenue, Orders, AOV KPIs with monthly trend and geographic revenue distribution.
+
 Customer Behavior & Time Analysis: Revenue and quantity patterns by hour and weekday to support marketing and operational decisions.
 
 Key insights:
+
 Revenue peaks toward year-end, confirming strong seasonality.
+
 Midday and evening hours show the highest order and revenue activity.
+
 A small set of products and cities contribute a disproportionate share of total revenue.
+
 Time-based patterns highlight clear windows for campaign and inventory optimization.
 
 ### Executive Dashboards (Tableau Public)
