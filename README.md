@@ -69,13 +69,6 @@ The same cleaned e-commerce dataset powers this interactive dashboard, providing
 
 **Files:** `customer_behavior_analysis.ipynb`
 
-4) Customer Behavior & Churn Analysis (Python & Tableau)
-
-Folder: customer-behavior-analysis/  
-Files:
-- customer_behavior_analysis.ipynb
-- customer_behavior_cleaned.csv
-
 Goal:
 Understand what drives customer churn by analyzing behavior patterns across tenure, engagement, conversion, and customer service interactions, and translate insights into retention-focused recommendations.
 
