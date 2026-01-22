@@ -43,23 +43,29 @@ mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
 
 **File:** `E_Commerce_Sales_Insights.ipynb`
 
-- **What it is:** Comprehensive analysis of a real-world e-commerce dataset (180k+ transactions) to answer critical business questions.
-- **Tech used:** Python (`Pandas` for cleaning/manipulation, `Seaborn` & `Matplotlib` for visualization).
-- **Key insights delivered:**
-  - **Best Sales Month:** December identified as peak revenue driver for seasonal inventory planning.
-  - **Top Performing Cities:** San Francisco highlighted as the highest revenue generator.
-  - **Optimal Ad Timing:** Hourly analysis recommends advertising peaks at **11 AM** and **7 PM** to maximize conversions.
-  - **Product Strategy:** "AAA Batteries" as highest-volume seller; "Macbook Pro" as highest revenue generator.
+Goal: Analyze e-commerce sales performance and customer behavior to identify revenue drivers, seasonal trends, and opportunities for growth.
+Data scope: ~180K transactions covering orders, revenue, products, customers, locations, and order timestamps.
+
+Python (Jupyter) work:
+Cleaned and validated transactional sales data.
+Created business metrics including total revenue, total orders, average order value (AOV), and time-based aggregates.
+Analyzed sales trends by month, weekday, and hour to uncover demand patterns.
+Identified top-performing products and cities by revenue and order volume.
+Prepared a Tableau-ready dataset for dashboarding.
+
+Tableau dashboards (Public):
+Executive Overview: Revenue, Orders, AOV KPIs with monthly trend and geographic revenue distribution.
+Customer Behavior & Time Analysis: Revenue and quantity patterns by hour and weekday to support marketing and operational decisions.
+
+Key insights:
+Revenue peaks toward year-end, confirming strong seasonality.
+Midday and evening hours show the highest order and revenue activity.
+A small set of products and cities contribute a disproportionate share of total revenue.
+Time-based patterns highlight clear windows for campaign and inventory optimization.
 
 ### Executive Dashboards (Tableau Public)
 
 [View Sales Analytics Dashboard](https://public.tableau.com/app/profile/abdelmohsen.mohamed.elafify/viz/SalesPerformanceCustomerBehaviorAnalysis/ExecutiveOverview)
-
-- **Executive KPIs:** Revenue, Orders, Average Order Value
-- **Revenue trends and geographic performance**
-- **Interactive filters for region, product, and time period**
-
-The same cleaned e-commerce dataset powers this interactive dashboard, providing stakeholders with an executive-level analytical layer:
 
 ---
 
