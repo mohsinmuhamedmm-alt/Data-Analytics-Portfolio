@@ -87,7 +87,7 @@ Analyze e-commerce sales performance and customer behavior to identify revenue d
 
 ---
 
-## 4) Customer Behavior & Churn Analysis (Python & Tableau)
+## 4. Customer Behavior & Churn Analysis (Python & Tableau)
 
 **Folder:** `customer-behavior-analysis/`
 
