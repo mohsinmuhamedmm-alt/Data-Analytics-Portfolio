@@ -7,7 +7,7 @@ Transitioning from **Hospital Operations & Finance** into **Data Analytics**. Th
 📂 Projects
 -----------
 
-### 1) 🧮 SQL: Sakila Business Analytics
+### 1) SQL: Sakila Business Analytics
 
 **Folder:** `sql/`
 **Files:** `sakila_monthly_payments_by_category.sql`, `sakila_store_payments_pivot.sql`
@@ -20,7 +20,7 @@ Transitioning from **Hospital Operations & Finance** into **Data Analytics**. Th
 
 ---
 
-### 2. 📊 E-Commerce Sales and Marketing Analysis (Python & Tableau)
+### 2. E-Commerce Sales and Marketing Analysis (Python & Tableau)
 
 **File:** `Sales and Marketing analysis.ipynb`
 **Executive Summary**
