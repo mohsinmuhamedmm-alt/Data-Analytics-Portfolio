@@ -1,8 +1,8 @@
 # Data Analytics Portfolio
 
-**Data Analyst** | Operations & Finance background | Python, SQL, Tableau 
+**Data Analyst** | Operations, Marketing and Finance background | Python, SQL, Tableau 
 
-Transitioning from **Hospital Operations & Finance** into **Data Analytics**. This portfolio showcases hands-on projects demonstrating the ability to extract insights, build dashboards, and drive business decisions using **Python**, **SQL**, and modern data visualization tools.
+Transitioning from **Hospital Operations & Finance** into **Data Analytics**. This portfolio shows the ability to perofrm data discovery, cleaning, analysis and visualization using Jupytor notebook.
 
 📂 Projects
 -----------
@@ -29,17 +29,7 @@ mysql -u root -p sakila < sql/sakila_monthly_payments_by_category.sql
 
 ---
 
-### 2. 🌤️ Python: Weather Data Extraction
-
-**File:** `Automated_Weather_Data_Extraction.py`
-
-- **What it is:** Python script that connects to a public weather API to fetch real-time data.
-- **Tech used:** Python (`requests` library).
-- **Goal:** Automate manual data collection, replacing copy-paste workflows with repeatable processes.
-
----
-
-### 3. 📊 E-Commerce Sales Analysis (Python & Tableau)
+### 2. 📊 E-Commerce Sales Analysis (Python & Tableau)
 
 **File:** `E_Commerce_Sales_Insights.ipynb`
 
