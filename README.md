@@ -23,6 +23,15 @@ Transitioning from **Hospital Operations & Finance** into **Data Analytics**. Th
 ### 2. 📊 E-Commerce Sales and Marketing Analysis (Python & Tableau)
 
 **File:** `Sales and Marketing analysis.ipynb`
+**Executive Summary**
+
+- this project analyzes ecommerce sales, marketing channel performance, discount effectiveness, and inventory allocation across six countries. The objective was to identify opportunities to improve marketing efficiency and profitability. Analysis was performed using Python for data preparation and statistical testing and Tableau for visualization.
+
+Key findings include:
+
+- website Banner and App Mobile generated over 96% of total revenue.
+- higher discounts significantly reduced profit margins without increasing purchase quantity.
+- germany generated the highest sales volume despite substantially lower recorded inventory availability than France.
 
 **Business Problem**  
 
@@ -77,26 +86,6 @@ Limitations:
   - Unit Sold Per Country
   - Stock Available Per Country
 
-
-**Key findings**  
-- **Finding 1:**
-  - Website Banner and App Mobile generated over 96% of total revenue.
-
-- **Recommendation:**
-  - If marketing spend is distributed evenly across channels, then the company should focus its future campaigns on these channels and evaluate ROI for lower-performing channels.
-
-- **Finding 2:**
-  - Discounts significantly reduced profit margins without increasing purchase quantity.
-- **Recommendation:**
-  - Review discount strategy.
-
-
-- **Finding 3:**
-  - Germany generated the highest sales volume despite substantially lower recorded inventory.
-- **Recommendation:**
-  - Investigate inventory allocation and replenishment processes.
-
-
 ### Executive Dashboards (Tableau Public)
 
 [View Sales Analytics Dashboard](https://public.tableau.com/app/profile/abdelmohsen.mohamed.elafify/viz/SalesandMarketingAnalysis_17803127960540/ExecutiveOverview?publish=yes)
@@ -105,62 +94,81 @@ Limitations:
 
 ## 3. Sales and Customer Behavior Analysis (Python & Tableau)
 
-**Folder:** `customer-behavior-analysis/`
+**Files:** `Sales and customer behaviour analysis.ipynb`
 
-**Files:** `customer_behavior_analysis.ipynb`
+**Executive Summary**
 
-Goal:
-Understand what drives customer churn by analyzing behavior patterns across tenure, engagement, conversion, and customer service interactions, and translate insights into retention-focused recommendations.
+- this project analyzes one year of ecommerce data to identify sales concentration patterns, customer purchase repeat behavior, product purchasing dynamics, and operational opportunities
+  that may support marketing allocation, and retention strategy decisions.
 
-Analysis Scope:
-- ~3,300 customer records
-- Behavioral signals across sessions, transactions, add-to-cart activity, AOV, service calls, and tenure
-- Binary churn flag used to calculate churn rates and segment risk
+the analysis combines Python for data preparation, segmentation, and statistical validation with Tableau for visualization.
 
-Python (Jupyter) Work:
-- Cleaned and validated raw behavioral data
-- Engineered features such as:
-  - Account length in months
-  - Conversion rates (overall, app vs desktop)
-  - Add-to-cart efficiency
-  - Session intensity metrics
-- Grouped customers into tenure cohorts (0–3m, 3–6m, 6–12m)
-- Prepared a Tableau-ready dataset focused on churn drivers rather than raw events
+Key findings include:
 
-Tableau Dashboards (Public):
-Built two dashboards to support different decision levels:
+- sales were heavily concentrated during Christmas period rather than across multiple major US holidays.
+- revenue and repeat purchasing behavior were concentrated in a small number of cities, particularly California's cities.
+- california's citiesdemonstrated substantially stronger repeat household concentration than other cities.
+- repeat households generated significantly higher cumulative revenue than the one time purchase households, while average order value remained relatively stable across repeat segments.
+- sales distribution across days of month remained relatively stable outside seasonal periods.
+- the dataset does not include customer id, campaign attribution, profitability, customer lifecycle, or marketing spend data, limiting relational interpretation.
 
-1) Executive Overview
-- Overall churn rate with benchmark context
-- Average Order Value
-- Total transactions
-- Average session duration per user
-Purpose: Quickly assess business health and identify whether churn or engagement requires attention.
+**Business Problem**  
 
-2) Customer Behavior Deep-Dive
-- Churn rate by tenure group
-- Conversion rate by tenure
-- Add-to-cart vs conversion (by churn status)
-- Customer service calls vs churn
-- Platform efficiency (app vs desktop)
-Purpose: Explain *why* churn happens and where intervention will have the highest impact.
+The business wants to understaind the purchasing behaviour, sales concentration, customer behaviour in order to review:-
+- bueinsess operations 
+- aim for process and revenue optimizatoin
 
-Key Insights:
-- Churn peaks in the mid-tenure (3–6 month) segment, indicating onboarding-to-retention drop-off.
-- Churned customers contact customer support ~50% more frequently, making service calls a strong churn risk signal.
-- Conversion rates improve with tenure, but higher conversion alone does not guarantee retention.
-- App users convert more efficiently than desktop users, suggesting platform UX differences impact outcomes.
-- AOV remains stable across tenure, implying churn is driven by experience rather than spend.
+The project focuses on identifying whether:-
+- sales and customer buying behavior follow a specific patterns rather than a ordinary buying activity.
+
+**Dataset Overview**  
+The dataset contains ecommerce sales records from 2019 and contains approximately 186,305 rows.
+
+Main variables include:
+
+- Order ID
+- Product
+- Quantity Ordered
+- Price Each
+- Order Date
+- Purchase Address
+
+Limitations:
+
+- No customer id exists.
+- No campaign, profitability, or acquisition source data exists.
+
+**Data Cleaning and Preparation** 
+- removed null records after verifying theier negligable effect on the analysis. 
+- standardized column naming system were followed.
+- converted quantity and price columns into numeric formats.
+- created revenue metric:
+    revenue = quantity_ordered × price_each
+- extracted:
+    - month
+    - day
+    - hour
+    - city/state
+
+- aggregated purchase addresses to approximate household behavior.
+- created repeat household segmentation variables.
+
+**Tableau Dashboards (Public)**  
+- **Executive Overview**
+  - Monthly revenue trend
+  - Geographic revenue distribution
+- **Repeat Purchasing Behavior**
+  - AOV
+  - Average Total Revenue
+  - Household Share Percentage Per Segement 
+  - Revenue Share Percentage Per Segement
+  - Average Revenue Per Segement
+  - Median Revenue Per Segement
+- **Geographic Repeat Purchase Concentration**
+  - Repeat Purchase Rate by City
+  - Order Household Rate by City
 
 ### Interactive Dashboard (Tableau Public)
 
-[View Customer Behavior Dashboards](https://public.tableau.com/app/profile/abdelmohsen.mohamed.elafify/viz/CustomerBehavourAnalysis/ExecutiveOverview#2)
+[View Customer Behavior Dashboards](https://public.tableau.com/app/profile/abdelmohsen.mohamed.elafify/viz/Salesandcustomerbehviouranalysis/ExecutiveOverview)
 
----
-
-🛠️ Tools & Skills
-------------------
-
-- **Languages:** Python, SQL, Tableau
-- **Core Competencies:** Data cleaning, process automation, business reporting for decision support
-- **Professional Background:** 2.5+ years in Operations & Finance (Citco, Healthcare)
