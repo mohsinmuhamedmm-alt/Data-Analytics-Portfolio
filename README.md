@@ -39,12 +39,13 @@ Period: April 2025 – June 2025 (~75 days)
 
 Scope:
 
-- 2253 sales items
-- 905 sales transactions
-- 500 products
-- 1000 customers
-- 6 countries
-- Limitations:
+  - 2253 sales items
+  - 905 sales transactions
+  - 500 products
+  - 1000 customers
+  - 6 countries
+
+Limitations:
 
 - No marketing spend data available
 - No inventory history
