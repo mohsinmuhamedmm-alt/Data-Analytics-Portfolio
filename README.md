@@ -26,7 +26,9 @@ the business wants to improve campaign targeting and customer profitability by u
 **Limitations:**
 - No marketing spend data available
 - Short observation period
-- 
+
+### Interactive Dashboard (Tableau Public)
+
 [View Dashboards](https://public.tableau.com/app/profile/abdelmohsen.mohamed.elafify/viz/Customercampaignresponseandsegmentationanalysis/CampaignTargeting?publish=yes)
 ---
 
