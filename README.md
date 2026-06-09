@@ -6,7 +6,7 @@ Transitioning from **Hospital Operations & Finance** into **Data Analytics**. Th
 
 📂 Projects
 -----------
-### 1. Customer Campaign Eesponse and Segmentation Analysis (Python & Tableau)
+### 1. Customer Campaign Response and Segmentation Analysis (Python & Tableau)
 
 **File:** `Customer campaign response and segmentation analysis.ipynb`
 **Executive Summary**
